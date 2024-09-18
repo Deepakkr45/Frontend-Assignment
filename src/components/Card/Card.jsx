@@ -8,7 +8,7 @@ import { BsCheckCircleFill, BsFillExclamationSquareFill } from "react-icons/bs";
 const Card = ({ id, title, tag, status, priority }) => {
   const isStatus = localStorage.getItem("group") === "status";
   const isPriority = localStorage.getItem("group") === "priority";
-  const statusOrder = ['Backlog', 'Todo', 'In progress', 'Done'];
+  //const statusOrder = ['Backlog', 'Todo', 'In progress', 'Done'];
 
   const getStatusColor = (status) => {
     switch (status) {
